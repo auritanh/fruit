@@ -16,8 +16,6 @@ client = MongoClient(MONGODB_URI)
 
 db = client[DB_NAME]
 
-client = MongoClient('mongodb://aurita_nurh:Rita2003@ac-kjn6aiy-shard-00-00.p7ehfhr.mongodb.net:27017,ac-kjn6aiy-shard-00-01.p7ehfhr.mongodb.net:27017,ac-kjn6aiy-shard-00-02.p7ehfhr.mongodb.net:27017/?ssl=true&replicaSet=atlas-omz0n9-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0')
-db = client.dbBuah
 
 app=Flask(__name__)
 
